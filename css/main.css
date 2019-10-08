@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Lato, sans-serif;
+  background-color: #eee9de;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+section {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 1.5em;
+  margin: 0;
+  margin-top: .5rem;
+}
+
+.secondpart {
+  display: inline-block;
+  vertical-align: middle;
+  padding: .4em .75em;
+  max-width: 25em;
+  width: 100%;
+  margin: 0;
+  margin-left: .6rem;
+}
+
+h2 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: .4px;
+  text-align: left;
+  max-width: 25em;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  margin-top: -.4rem;
+}
+
+p {
+  color: black;
+  text-align: left;
+  font-weight: normal;
+  max-width: 25em;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 0;
+}
+
+.image {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 25em;
+  padding: .5em .75em;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  object-fit: contain;
+}
+
+img {
+  display: block;
+  margin: 0;
+  max-width: 25em;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  color: black;
+  text-align: left;
+}
+
+a:hover {
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  padding: .5em 1em;
+  font-size: 1em;
+  text-align: left;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 7px;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  float: left;
+}
